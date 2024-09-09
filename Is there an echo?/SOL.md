@@ -4,12 +4,8 @@
 > *Maybe next time you should record your music in an acoustically treated space.*
 
 
-The challenge gives us a single audio file called `256.wav`, which we can listen to here:
-
-<audio controls>
-  <source src="https://github.com/RedFlame2112/CSAW-CTF-Quals-2024-Writeups/blob/master/Is%20there%20an%20echo%3F/256.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
+The challenge gives us a single audio file called `256.wav`, which we can listen to 
+[here](https://github.com/RedFlame2112/CSAW-CTF-Quals-2024-Writeups/blob/master/Is%20there%20an%20echo%3F/256.wav)
 
 A couple of initial observations: the audio seems to loop, and the audio seems to have some stutters in it. First thing we always do, we put it into audacity, and inspect the spectrogram for hidden messages:
 
