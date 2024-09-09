@@ -177,4 +177,4 @@ for i in range(2049):
 
 ![alt text](image-9.png)
 
-Lo and behold, we found our flag: `csawctf{1nv3st_1n_s0qndpr00f1ng}`
+Lo and behold, we found our flag: `csawctf{1nv3st_1n_s0undpr00f1ng}`
