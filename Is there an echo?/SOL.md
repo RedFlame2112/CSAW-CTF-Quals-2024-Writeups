@@ -7,7 +7,7 @@
 The challenge gives us a single audio file called `256.wav`, which we can listen to here:
 
 <audio controls>
-  <source src="256.wav" type="audio/wav">
+  <source src="https://github.com/RedFlame2112/CSAW-CTF-Quals-2024-Writeups/blob/master/Is%20there%20an%20echo%3F/256.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
@@ -32,7 +32,7 @@ https://link.springer.com/content/pdf/10.1007/3-540-61996-8_48
 
 > *Echo hiding introduces changes to the cover audio that are characteristic of environmental conditions rather than random noise, thus it is robust in light of many lossy data compression algorithms.*
 
-in summary, the idea behind Echo hiding is to encode information by manipulating certain characteristics of echoes, like delay time, amplitude, or phase, in a way that doesn't significantly degrade the quality of the original audio. The four main echo parameters are:
+In summary, the idea behind Echo hiding is to encode information by manipulating certain characteristics of echoes, like delay time, amplitude, or phase, in a way that doesn't significantly degrade the quality of the original audio. The four main echo parameters are:
 - the beginning amplitude 
 - the decay rate 
 - the "zero" offset 
