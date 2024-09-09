@@ -132,7 +132,7 @@ import re
 
 hann = lambda win: 0.5*(1-np.cos(2*np.pi*np.arange(win)/win))
 
-def extract_echo_bits(y, L, delta0=50, delta1=57):
+def extract_echo_bits(y, L, delta0=48, delta1=57):
     yp = np.pad(y, (L//2, L//2))
     T = (yp.size-L*2)//L+1
     n_even = yp.size//(L*2)
